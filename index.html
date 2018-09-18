@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pixel Art Maker!</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pixel art maker is a tool/web art editor that allows you to draw pixel art.
+    ">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="/main.css">
+</head>
+
+<body>
+    <header>
+        <h1><span class="logo">Px</span> Art Maker</h1>
+
+        <div class="settings">
+            <h2>Canvas Settings</h2>
+            <form id="sizePicker">
+                <div class="group">
+                    <label for="inputHeight">
+                        Canvas Height
+                    </label>
+                    <input type="number" id="inputHeight" name="height" min="2" max="50" value="16" required>
+                </div>
+                <div class="group">
+                    <label for="inputWidth">
+                        Canvas Width
+                    </label>
+                    <input type="number" id="inputWidth" name="width" min="2" max="50" value="16" required>
+                </div>
+                <div class="group">
+                    <label for="submit" class="hide-text">Submit</label>
+                    <input type="submit" id="submit" value="Save">
+                </div>
+                <div class="group">
+                    <label for="DeleteCanvas" class="hide-text">Delete</label>
+                    <input type="button" id="DeleteCanvas" value="Delete All">
+                </div>
+                <div class="group">
+                    <label for="pickCanvasColor">
+                        Background Color
+                    </label>
+                    <div class="color">
+                        <input type="color" id="pickCanvasColor" value="#ffffff">
+                    </div>
+                </div>
+                <div class="group">
+                    <label for="colorPicker">Paint Color</label>
+                    <div class="color">
+                        <input type="color" id="colorPicker" value="#000000">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </header>
+    <div class="center">
+        <section class="canvas-container">
+            <table id="pixelCanvas">
+            </table>
+        </section>
+    </div>
+
+    <div>
+        <a class="btn" href="#tutorial">How-to?</a>
+    </div>
+    <section id="tutorial">
+        <a class="btn" href="#">close</a>
+        <p><strong>How-to?</strong><br>1. Choose a drawing canvas size and click <strong>Save</strong> <br>2. Choose a <strong>Background Color</strong> for the canvas.<br>3. Pick <strong>Paint Color</strong>. <br> 4. Click the squares you would
+            like to paint. <br>5. To erase just <strong>double click/tap</strong> the square you would like to erase. <br> 6. To clear/delete drawing click <strong>Delete All</strong> <em>(Warning: Drawing progress will not be save)</em>
+            <br>7. <strong>HAVE
+                FUN</strong> drawing your next masterpiece, cheers!</p>
+    </section>
+    <footer>
+        <p>Made with ❤️ by <a href="http://www.giovannilara.com">Gio</a>. <a href="https://www.github.com/gioalo">Fork @gioalo</a></p>
+    </footer>
+    <!-- <script src="jquery.min.js"></script> -->
+    <script src="/app.js"></script>
+</body>
+
+</html>
