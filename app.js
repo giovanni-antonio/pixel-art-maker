@@ -53,7 +53,7 @@ function DeleteCanvas(e) {
   }
 }
 
-document.body.addEventListener('onload', makeGrid());
+window.addEventListener('load', makeGrid());
 
 backgroundColorPicker.addEventListener('change', function (e) {
   table.style.backgroundColor = e.target.value;

@@ -8,6 +8,7 @@ Pixel art maker is a tool/web art editor that allows you to draw pixel art. The 
 * [About](#About)
 * [Features](#Features)
 * [Instructions](#instructions)
+* [TODOs & Feature Request](#TODOs-&-Feature-Request)
 
 ## About
 
@@ -26,7 +27,7 @@ Creating or modifying pixel art characters or objects for video games is sometim
 ## Instructions
 
 To get started, open `index.html` in your browser and start drawing pixels on the canvas.
-  1. Choose a drawing canvas size and click Save
+  1. Choose a drawing canvas size and click Resize
   2. Choose a Background Color for the canvas.
   3. Pick Paint Color.
   4. Click the squares you would
