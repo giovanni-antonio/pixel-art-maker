@@ -66,7 +66,6 @@ td {
 }
 
 table {
-    table-layout: fixed;
     border-collapse: collapse;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -200,7 +199,7 @@ input[type="color"]::-webkit-color-swatch {
     background-color: #fff;
     -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.199);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.199);
-    height: 100%;
+    height: auto;
 }
 
 .settings {
